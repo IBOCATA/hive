@@ -6,4 +6,14 @@
       "cwd": "tools"
     }
   }
+  {
+  "security": {
+    "cve_id": "CVE-2026-0804",
+    "status": "Patched",
+    "mfa_protocol": "Dual-Channel Authenticator (DCA)",
+    "audit_logging": "Enabled (Langfuse + HMAC Trace)",
+    "encryption": "AES-256-GCM for Session Tokens"
+  }
+}
+
 }
